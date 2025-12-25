@@ -6,13 +6,50 @@ A clean and responsive **To-Do Application** to help you organize tasks efficien
 
 ## 🚀 Features
 
-* ➕ Add new tasks with **date & time**
-* ✏️ Edit existing tasks
-* ✅ Mark tasks as completed
-* 🗑️ Delete tasks
-* 📅 View task due date and time
-* 📊 Task count display
-* 💻 Clean, responsive UI
+Based on the current UI and working behavior of the app, the following functionalities are implemented:
+
+* ➕ **Add Task**
+
+  * Enter task title
+  * Select optional **date** and **time**
+  * Click **ADD** to create a task
+
+* ✏️ **Inline Edit Mode**
+
+  * Tasks can be edited directly in input fields
+  * Update task text, date, and time
+  * Click **Done** to save changes
+
+* ✅ **Mark as Complete**
+
+  * Mark tasks as completed
+  * Completed tasks show:
+
+    * Strikethrough text
+    * "Completed" status button
+
+* 🔄 **Toggle Task State**
+
+  * Incomplete → Complete
+  * UI updates instantly without page refresh
+
+* 🗑️ **Delete Task**
+
+  * Remove tasks permanently
+
+* 📊 **Live Task Counter**
+
+  * Displays total number of tasks dynamically
+
+* 🕒 **Date & Time Display**
+
+  * Each task shows its scheduled date and time
+
+* 🎨 **Visual Status Indicators**
+
+  * Blue border → Active task
+  * Green button → Completed
+  * Red button → Delete action
 
 ---
 
